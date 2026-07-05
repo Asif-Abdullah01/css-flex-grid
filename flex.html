@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-     
+        .container {
+            display: flex;
+            justify-content: space-around;
+            /* justify-content: space-between; */
+            /* justify-content: center; */
+            /* gap: 10px; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+        }
 
-        .box{ 
+        .box {
             height: 100px;
             background-color: lightcoral;
-            border: 3px solid green
+            border: 3px solid green;
+            font-size: 2rem;
 
+        }
+
+
+        div {
+            font-size: 2rem;
+        }
+
+        .user-container {
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+        }
+
+        .user {
+            border: 2px solid black;
+            height: 100px;
+        }
+
+        /* centering a picture in the middle of the page using flexbox */
+
+        .pic-container {
+            display: flex; /* enables flexbox layout */
+            border: 2px solid green;
+            justify-content: center; /* horizontal alignment */
+            align-items: center; /* vertical alignment */
+            height: 600px;
+        }
+
+        .pic {
+            width: 100px;
+            height: 100px;
+            border: 3px solid red;
         }
     </style>
 </head>
+
 <body>
-    
+
+    <div class="pic-container">
+        <div class="pic">picture</div>
+    </div>
+
     <!-- exploring emmet of html -->
-    
+
 
     <!-- div>p -->
 
-    <div>
+    <!-- <div>
         <p>This is a paragraph.</p>
-    </div>
+    </div> -->
 
 
     <!-- div>article*3>section>h2+p -->
-       <div>
+    <!-- <div>
         <article>
             <section>
                 <h2></h2>
@@ -48,38 +99,64 @@
                 <p></p>
             </section>
         </article>
-       </div>
+       </div> -->
 
 
 
 
-       <!-- .container>h2.header#first -->
+    <!-- .container>h2.header#first -->
 
-       <div class="container">
+    <!-- <div class="container">
         <h2 class="header" id="first"></h2>
-       </div>
+       </div> -->
 
-       <h1>welcome to my website</h1>
+    <h1>welcome to my website</h1>
 
 
-       <!-- ul.container>li.item*5{item - $} -->
-               <ul class="container">
+    <!-- ul.container>li.item*5{item - $} -->
+    <!-- <ul class="container">
                 <li class="item">item - 1</li>
                 <li class="item">item - 2</li>
                 <li class="item">item - 3</li>
                 <li class="item">item - 4</li>
                 <li class="item">item - 5</li>
-               </ul>
+               </ul> -->
 
 
-        <div class="container">
-            <div class="box">box - 1</div>
-            <div class="box">box - 2</div>
-            <div class="box">box - 3</div>
-            <div class="box">box - 4</div>
-            <div class="box">box - 5</div>
-        </div>
+    <div class="container">
+        <div class="box">box - 1</div>
+        <div class="box">box - 2</div>
+        <div class="box">box - 3</div>
+        <div class="box">box - 4</div>
+        <div class="box">box - 5</div>
+    </div>
 
-     
+
+    <!-- .user-container>div.user*5{user - $} -->
+    <div class="user-container">
+        <div class="user">user - 1</div>
+        <div class="user">user - 2</div>
+        <div class="user">user - 3</div>
+        <div class="user">user - 4</div>
+        <div class="user">user - 5</div>
+        <div class="user">user - 6</div>
+        <div class="user">user - 7</div>
+        <div class="user">user - 8</div>
+        <div class="user">user - 9</div>
+        <div class="user">user - 10</div>
+        <div class="user">user - 11</div>
+        <div class="user">user - 12</div>
+        <div class="user">user - 13</div>
+        <div class="user">user - 14</div>
+        <div class="user">user - 15</div>
+        <div class="user">user - 16</div>
+        <div class="user">user - 17</div>
+        <div class="user">user - 18</div>
+        <div class="user">user - 19</div>
+        <div class="user">user - 20</div>
+    </div>
+
+
 </body>
+
 </html>
