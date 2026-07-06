@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            position: relative;
+            border: 3px solid red;
+        }
+
+        .container div {
+            border: 2px solid red;
+            width: 300px;
+
+        }
+
+        .container div img{
+            width: 50%;
+            height: auto;
+        }
+
+        .lamp {
+            /* position: relative; */
+            /* left: 50px; */
+            /* top: 50px; */
+        }
+
+        .boat {
+            /* position: absolute; */
+            /* top: 20px; */
+            /* top: 50px;
+            right: 50px; */
+            position: sticky;
+            top: 0px;
+        } 
+
+        .box{
+            height: 100px;
+            border: 2px solid blue;
+        }
+
+        .turbo{
+            position: fixed;
+            bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>sticky</li>
+        <li>fixed</li>
+    </ul>
+
+    <div class="container">
+        <div class="lamp">
+            <img src="images/lamp.jpg" alt="">
+        </div>
+        <div class="boat">
+            <img src="images/boat.jpg" alt="">
+        </div>
+        <div class="turbo">
+            <img src="images/turbo.jpg" alt="">
+        </div>
+
+
+        <div>
+            <div class="box">item - 1</div>
+            <div class="box">item - 2</div>
+            <div class="box">item - 3</div>
+            <div class="box">item - 4</div>
+            <div class="box">item - 5</div>
+            <div class="box">item - 6</div>
+            <div class="box">item - 7</div>
+            <div class="box">item - 8</div>
+            <div class="box">item - 9</div>
+            <div class="box">item - 10</div>
+            <div class="box">item - 11</div>
+            <div class="box">item - 12</div>
+            <div class="box">item - 13</div>
+            <div class="box">item - 14</div>
+            <div class="box">item - 15</div>
+            <div class="box">item - 16</div>
+            <div class="box">item - 17</div>
+            <div class="box">item - 18</div>
+            <div class="box">item - 19</div>
+            <div class="box">item - 20</div>
+            <div class="box">item - 21</div>
+            <div class="box">item - 22</div>
+            <div class="box">item - 23</div>
+            <div class="box">item - 24</div>
+            <div class="box">item - 25</div>
+        </div>
+    </div>
+
+
+    <div>
+        <h3>Another container</h3>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
