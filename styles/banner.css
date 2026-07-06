@@ -1,0 +1,37 @@
+.banner {
+    display: flex;
+    background-color: #b5feb9;
+    padding: 20px;
+    align-items: center;
+}
+
+.banner-content {
+    flex: 1;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.banner-image {
+    flex: 1;
+    /* padding: 20px; */
+}
+
+.banner-image img {
+    width: 100%;
+
+}
+
+.banner-content button {
+    background-color: #056129;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner-content button:hover {
+    background-color: #0a7c3f;
+}
