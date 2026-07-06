@@ -35,3 +35,37 @@
 .banner-content button:hover {
     background-color: #0a7c3f;
 }
+
+.form-cls form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.form-cls input, textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-cls textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-cls button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-cls button:hover {
+    background-color: darkblue;
+}
